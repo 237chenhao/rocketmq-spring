@@ -112,9 +112,22 @@
         <module>rocketmq-spring-boot-parent</module>
         <module>rocketmq-spring-boot</module>
         <module>rocketmq-spring-boot-starter</module>
-        <!--<module>rocketmq-spring-boot-samples</module>-->
+        <module>rocketmq-spring-boot-samples</module>
         <!-- Note: The samples need to mvn compiple in its own directory
                 <module>rocketmq-spring-boot-samples</module>
         -->
     </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>cj-nexus</id>
+            <name>Nexus cj</name>
+            <url>http://nexus.chuangjiangx.com/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cj-nexus</id>
+            <name>Nexus cj</name>
+            <url>http://nexus.chuangjiangx.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

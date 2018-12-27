@@ -186,16 +186,5 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>cj-nexus</id>
-            <name>Nexus cj</name>
-            <url>http://nexus.chuangjiangx.com/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>cj-nexus</id>
-            <name>Nexus cj</name>
-            <url>http://nexus.chuangjiangx.com/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+
 </project>
