@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+/target
+*/target
+*.iml
+*.ipr
+*.iws
+/.idea/uiDesigner.xml
