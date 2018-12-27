@@ -11,3 +11,5 @@ target/
 !LICENSE-BIN
 .DS_Store
 .vscode
+*.ipr
+*.iws
