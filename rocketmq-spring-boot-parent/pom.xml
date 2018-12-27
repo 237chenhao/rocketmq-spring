@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.rocketmq</groupId>
         <artifactId>rocketmq-spring-boot-build</artifactId>
-        <version>2.0.1-SNAPSHOT</version>
+        <version>2.0.1.cj-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -41,7 +41,7 @@
         <!--<spring.boot.version>2.0.5.RELEASE</spring.boot.version>-->
         <!--<spring.version>5.1.0.RELEASE</spring.version>-->
 
-        <rocketmq.spring.boot.version>2.0.1-SNAPSHOT</rocketmq.spring.boot.version>
+        <rocketmq.spring.boot.version>2.0.1.cj-SNAPSHOT</rocketmq.spring.boot.version>
 
         <rocketmq-version>4.3.2</rocketmq-version>
         <slf4j.version>1.7.25</slf4j.version>
@@ -185,4 +185,17 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>cj-nexus</id>
+            <name>Nexus cj</name>
+            <url>http://nexus.chuangjiangx.com/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cj-nexus</id>
+            <name>Nexus cj</name>
+            <url>http://nexus.chuangjiangx.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
